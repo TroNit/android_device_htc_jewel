@@ -56,4 +56,11 @@ version 4 - added sms to mms text threshold.
          If false, the text will never be split before being sent. -->
     <bool name="enableSplitSMS">true</bool>
 
+    <!-- Maximum length for message text. Use a value of -1
+         to indicate default value -->
+    <int name="maxMessageTextSize">-1</int>
+
+    <!-- Support to hide Sprints VVM text messages -->
+    <bool name="enableSprintVVM">true</bool>
+
 </mms_config>
