@@ -1,4 +1,4 @@
-$(call inherit-product, vendor/ose/config/common.mk)
+$(call inherit-product, vendor/ose/config/common_full_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/ose/config/nfc_enhanced.mk)
