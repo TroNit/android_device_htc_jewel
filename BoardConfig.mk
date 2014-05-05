@@ -87,3 +87,6 @@ TW_EXTERNAL_STORAGE_PATH := "/external_sd"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 TW_INCLUDE_DUMLOCK := true
 TW_INCLUDE_JB_CRYPTO := true
+
+# Recovery
+TARGET_RECOVERY_FSTAB := device/htc/jewel/rootdir/etc/fstab.qcom

@@ -24,8 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/jewel/overlay
 # Boot ramdisk setup
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.target.rc \
-    remount.qcom
+    init.target.rc
 
 # Sound configs
 PRODUCT_COPY_FILES += \
@@ -56,10 +55,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/jewel/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
     device/htc/jewel/idc/projector_input.idc:system/usr/idc/projector_input.idc
-
-# Recovery
-PRODUCT_COPY_FILES += \
-    device/htc/jewel/rootdir/etc/fstab.qcom:recovery/root/fstab.qcom
 
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
